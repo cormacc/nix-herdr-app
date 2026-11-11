@@ -43,7 +43,11 @@ stdenvNoCC.mkDerivation {
   '';
 
   nativeInstallCheckInputs = [ versionCheckHook ];
-  doInstallCheck = true;
+  # On Darwin the check runs the binary from inside the signed bundle in $out.
+  # macOS then adds com.apple.macl to the bundle, and Nix fails to
+  # canonicalise the store path ("clearing flags of path ...: Operation not
+  # permitted").
+  doInstallCheck = !stdenvNoCC.hostPlatform.isDarwin;
 
   meta = {
     description = "Persistent terminal and coding agent backend for Herdr (upstream release build)";
