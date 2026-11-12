@@ -20,22 +20,22 @@
   "herdr-core" : {
     "sources" : {
       "aarch64-darwin" : {
-        "hash" : "sha256-5YmF0/726QnzPTxaRCbkiYyBVkpVfUY2WRzsnjoGryY=",
-        "url" : "https://releases.herdr.dev/core/0.1.20/herdr-core-macos-aarch64.tar.gz"
+        "hash" : "sha256-GrON2ScPY6j3lNbWDocC6w0chacr2oXXNeXupD8F/+0=",
+        "url" : "https://releases.herdr.dev/core/0.1.21/herdr-core-macos-aarch64.tar.gz"
       },
       "aarch64-linux" : {
-        "hash" : "sha256-XzA3N50VzHbPxy0v0aQmLqHFsk3yeL98/Yrc/3uRSGI=",
-        "url" : "https://releases.herdr.dev/core/0.1.20/herdr-core-linux-aarch64.tar.gz"
+        "hash" : "sha256-6ESiv6tIoiYJdnnQdryDBC/lf8zvU4fvgC5bJOeLUpo=",
+        "url" : "https://releases.herdr.dev/core/0.1.21/herdr-core-linux-aarch64.tar.gz"
       },
       "x86_64-darwin" : {
-        "hash" : "sha256-NsAzHD/+oP+q2hlbiaPHSW9/P8W/NeRgXBnITlwgWlY=",
-        "url" : "https://releases.herdr.dev/core/0.1.20/herdr-core-macos-x86_64.tar.gz"
+        "hash" : "sha256-43fh00LN3OA0baWy88KBuXAeRzHAACTHxQKCZed6IX8=",
+        "url" : "https://releases.herdr.dev/core/0.1.21/herdr-core-macos-x86_64.tar.gz"
       },
       "x86_64-linux" : {
-        "hash" : "sha256-rGuGiQxFGjdYRiCqpDi3G8DQvUMKLnwdfglfBSxBTnQ=",
-        "url" : "https://releases.herdr.dev/core/0.1.20/herdr-core-linux-x86_64.tar.gz"
+        "hash" : "sha256-eEJHVcEKQN3jigvbVcIKwZcG6a4F7Wj8Ks8fz/DZQcE=",
+        "url" : "https://releases.herdr.dev/core/0.1.21/herdr-core-linux-x86_64.tar.gz"
       }
     },
-    "version" : "0.1.20"
+    "version" : "0.1.21"
   }
 }
